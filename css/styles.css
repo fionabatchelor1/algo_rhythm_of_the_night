@@ -2,6 +2,10 @@ body {
   color: rgb(65,75,86);
   font-family: georgia;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -50,3 +54,21 @@ nav {
   margin: 20px;
   align-items: center;
 }
+
+.center-text {
+
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    color: rgb(255,255,255);
+    font-family: georgia;
+}
+
+img {max-width:100%;}
