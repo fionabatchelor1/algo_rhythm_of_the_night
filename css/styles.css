@@ -1,18 +1,18 @@
 body {
   color: rgb(65,75,86);
-  font-family: georgia;
-  margin: 20px;
+  font-family: 'Abel', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }
-
-.container {}
 
 h1 {
   color: rgb(0,153,76);
-  font-family: georgia;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
   text-align: center;
   font-size: 5em;
 }
@@ -20,6 +20,7 @@ h1 {
 h2 {
   color: rgb(0, 204, 102);
   text-align: center;
+  font-weight: bold;
   font-size:3em
 }
 
@@ -27,18 +28,14 @@ p {
 width: 80%;
 margin: 10vh 10vw;
 font-size: 1.5em;
+text-align: center;
 }
 
 h3 {
   color: rgb(0, 204, 102);
-  text-align: center;
-  font-size:3em
-
-}
-
-h4 {
-  text-align: center;
+  text-align: left;
   font-size:2em
+  font-weight: bold;
 
 }
 
@@ -58,7 +55,7 @@ flex-direction: column;
 
 nav {
   color: rgb(65,75,86);
-  font-family: georgia;
+  font-family: 'Barlow', sans-serif;;
   margin: 20px;
   align-items: center;
 }
@@ -76,7 +73,7 @@ nav {
     width: 300px;
     padding: 50px;
     color: rgb(255,255,255);
-    font-family: georgia;
+    font-family: 'Barlow', sans-serif;;
 }
 
 img {max-width:100%;}
