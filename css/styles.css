@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -25,7 +25,6 @@ h2 {
 }
 
 p {
-width: 80%;
 margin: 10vh 10vw;
 font-size: 1.5em;
 text-align: center;
@@ -81,3 +80,42 @@ nav {
 }
 
 img {max-width:100%;}
+
+.socials {
+  padding:20px;
+  text-align: center;
+  align-items: baseline;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.contactlink {
+  text-align:center;
+  font-size: 0.5em
+  color: rgb(255,255,255);
+}
