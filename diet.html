@@ -47,34 +47,54 @@
       </ul>
     </nav>
 
-
     <div class="container">
       <h1>Small Steps</h1>
       <br>
       <h2>Making a difference to the planet, one action at a time.</h2>
       <p> <img src="images/foot logo.jpg" class="img-fluid" class="img-fluid" width="100px"> </p>
       <h4>Step 1 - Diet</h4>
-    <div class=“container”>
-      <div class='row'>
+    </div>
+    <div class='row'>
+      <p2>One of the easiest and most effective ways to lower your carbon footprint is by paying attention to what you eat. Animal agriculture (meat and dairy) is responsible for 15% of all man made global greenhouse gas emissions. This is primarily from the animal feed production and processing and the methane (25 times more potent than CO2 at trapping heat in the atmosphere over 100 years) that beef and sheep belch out. Every day that you forgo meat and dairy, you can reduce your carbon footprint by 8 pounds—that’s 2,920 pounds a year.  </p2>
         <div class='col-sm'>
-          <p> One of the easiest and most effective ways to lower your carbon footprint is by paying attention to what you eat.
-
-Animal agriculture (meat and dairy) is responsible for 15% of all man made global greenhouse gas emissions. This is primarily from the animal feed production and processing and the methane (25 times more potent than CO2 at trapping heat in the atmosphere over 100 years) that beef and sheep belch out. Every day that you forgo meat and dairy, you can reduce your carbon footprint by 8 pounds—that’s 2,920 pounds a year.  </p>
+          <p3>Other things you can do to lower the environmental impact of your diet: </p3>
         </div>
         <div class='col-sm'>
-          <p> Other things you can do to lower the environmental impact of your diet includes:
-            <ul>
-              <li> Choosing locally-sourced food, and buying food in-season. Transporting food from far away, whether by truck, ship, rail or plane, uses fossil fuels for fuel and for cooling to keep foods in transit from spoiling.</li>
-              <li> Reduce your food waste by planning meals ahead of time, freezing the excess and reusing leftovers.</li>
-              <li> Compost your food waste if possible </li>
-            </ul>
-          <p> <img src="images/VeganFood1.jpg" class="img-fluid" class="img-fluid" width="100px"> </p>
+          <ul>
+            <li> Choosing locally-sourced food, and buying food in-season. Transporting food from far away, whether by truck, ship, rail or plane, uses fossil fuels for fuel and for cooling to keep foods in transit from spoiling</li>
+            <li> Reduce your food waste by planning meals ahead of time, freezing the excess and reusing leftovers</li>
+            <li> Compost your food waste if possible </li>
+          </ul>
         </div>
-        <div class='col-sm'>
-          <p> Picture </p>
-        </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="column">
+        <img src="Images/VeganFood1.jpg" alt="Food1" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/VeganFood2.jpg" alt="Food2" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/VeganFood3.jpg" alt="Food3" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="Images/VeganFood4.jpg" alt="Food4" onclick="myFunction(this);">
       </div>
     </div>
+    <div class="imagecontainer">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+    </div>
+    <script>
+    function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+    }
+    </script>
+
+    <br>
 
     <!-- carousel -->
 
